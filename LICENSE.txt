@@ -1,0 +1,80 @@
+AD.Caravos — Лицензия / License
+==============================
+
+Copyright © 2026 Archidexter. Все права защищены. / All rights reserved.
+
+Автор и единственный правообладатель: Archidexter.
+AD.Caravos — лаунчер для Fallout: New Vegas: ставит и настраивает мод ИИ-диалогов Numen.
+Официальный источник: https://github.com/Archidexter/AD.Caravos
+Любые копии под другим авторством или с другой лицензией не авторизованы.
+
+Author and sole copyright holder: Archidexter.
+AD.Caravos is a launcher for Fallout: New Vegas: it installs and configures the Numen
+AI-dialogue mod.
+Official source: https://github.com/Archidexter/AD.Caravos
+Any copy under different authorship or a different license is not authorized.
+
+
+РУССКИЙ
+
+Эта лицензия распространяется на программу AD.Caravos (лаунчер) и на то, что написано
+для неё: правила установки, интерфейс и тексты. Программа распространяется бесплатно.
+
+Разрешается:
+  • любому человеку бесплатно скачивать и использовать программу — без оплаты,
+    без ключей и без паролей;
+  • копировать и передавать её другим в неизменном виде, вместе с этим файлом лицензии.
+
+Запрещается без письменного разрешения автора:
+  • продавать программу или брать плату за доступ к ней;
+  • выдавать её за свою работу;
+  • изменять её и распространять изменённые версии;
+  • использовать название и оформление «AD.Caravos» для других продуктов.
+
+Программа НИЧЕГО не перевыкладывает у себя: всё стороннее она скачивает с исходных
+источников на вашем компьютере в момент установки. Эти материалы не входят в программу
+и остаются под собственными лицензиями своих авторов — настоящая лицензия на них
+не распространяется. Это, в частности:
+  • Numen (Eddoursul) — сам мод ИИ-диалогов;
+  • xNVSE, JIP LN NVSE, JohnnyGuitar NVSE и прочие плагины NVSE;
+  • FNV 4GB Patcher;
+  • модели распознавания речи sherpa-onnx / Vosk (Apache-2.0).
+Условия используемых сторонних библиотек и шрифтов лежат в папке lib\third-party.
+
+Ключи к сервисам ИИ — ваши. Программа хранит их только на вашем компьютере и не
+передаёт никуда, кроме выбранного вами провайдера. Расходы по этим ключам несёте вы.
+
+Программа предоставляется «как есть», без каких-либо гарантий. Автор не несёт
+ответственности за любой ущерб, прямой или косвенный, связанный с её использованием.
+
+
+ENGLISH
+
+This license covers the AD.Caravos program (the launcher) and what was written for it:
+its install rules, interface and texts. The program is free.
+
+You may:
+  • download and use the program free of charge — no fee, no key, no password;
+  • copy and share it with others unmodified, together with this license file.
+
+Without the author's written permission you may NOT:
+  • sell the program or charge for access to it;
+  • claim it as your own work;
+  • modify it or distribute modified versions;
+  • use the "AD.Caravos" name or look for other products.
+
+The program re-hosts NOTHING: everything third-party is downloaded from its original
+source, onto your machine, at install time. Those materials are not part of this program
+and remain under their own authors' licenses; this license does not apply to them.
+Namely:
+  • Numen (Eddoursul) — the AI-dialogue mod itself;
+  • xNVSE, JIP LN NVSE, JohnnyGuitar NVSE and the other NVSE plugins;
+  • FNV 4GB Patcher;
+  • the sherpa-onnx / Vosk speech-recognition models (Apache-2.0).
+Terms for the third-party libraries and fonts in use are in lib\third-party.
+
+Your AI service keys are yours. The program keeps them on your machine only and sends
+them nowhere except the provider you chose. Their cost is yours.
+
+The program is provided "as is", without warranty of any kind. The author is not
+liable for any damage, direct or indirect, arising from its use.
