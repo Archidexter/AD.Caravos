@@ -1,0 +1,102 @@
+AD.Caravos — Лицензия / License
+==============================
+
+Copyright © 2026 Archidexter. Все права защищены. / All rights reserved.
+
+Автор и единственный правообладатель: Archidexter.
+AD.Caravos — лаунчер для Fallout: New Vegas: ставит и настраивает мод ИИ-диалогов Numen,
+а также помогает собрать Tale of Two Wastelands из ваших собственных копий обеих игр.
+Официальный источник: https://github.com/Archidexter/AD.Caravos
+Любые копии под другим авторством или с другой лицензией не авторизованы.
+
+Author and sole copyright holder: Archidexter.
+AD.Caravos is a launcher for Fallout: New Vegas: it installs and configures the Numen
+AI-dialogue mod, and helps assemble Tale of Two Wastelands from your own copies of both games.
+Official source: https://github.com/Archidexter/AD.Caravos
+Any copy under different authorship or a different license is not authorized.
+
+
+РУССКИЙ
+
+Эта лицензия распространяется на программу AD.Caravos (лаунчер) и на то, что написано
+для неё: правила установки, интерфейс и тексты. Программа распространяется автором на Boosty —
+по подписке или при покупке поста.
+
+Разрешается:
+  • использовать программу тому, кто получил её от автора;
+  • держать её личные копии для себя, вместе с этим файлом лицензии.
+
+Запрещается без письменного разрешения автора:
+  • передавать программу другим людям, выкладывать её в открытый доступ или
+    распространять любым иным способом;
+  • продавать программу или брать плату за доступ к ней;
+  • выдавать её за свою работу;
+  • изменять её и распространять изменённые версии;
+  • использовать название и оформление «AD.Caravos» для других продуктов.
+
+Программа не перевыкладывает чужое. Всё стороннее она скачивает на ваш компьютер в момент
+установки — с исходных источников их авторов, а народную русскую озвучку по ссылке, которую
+даёт автор лаунчера. Эти материалы не входят в программу и остаются под собственными
+лицензиями своих авторов — настоящая лицензия на них не распространяется. Это, в частности:
+  • Numen (Eddoursul) — сам мод ИИ-диалогов;
+  • Tale of Two Wastelands — лаунчер её НЕ РАЗДАЁТ: он открывает страницу авторов, а сборщик
+    вы скачиваете и запускаете сами, из своих лицензионных копий Fallout 3 и New Vegas;
+  • Mod Organizer 2, xNVSE, JIP LN NVSE, JohnnyGuitar NVSE и прочие плагины NVSE;
+  • FNV 4GB Patcher;
+  • русская озвучка ванильных диалогов и переводы игры — народные работы, права у их авторов;
+  • голоса Piper и данные espeak-ng — только некоммерческое использование;
+  • модели распознавания речи sherpa-onnx / Vosk (Apache-2.0);
+  • Ollama и llama.cpp — если вы выбрали нейросеть на своём компьютере.
+Вместе с программой поставляются только три чужие вещи: 7-Zip (7zr.exe, LGPL),
+загрузчик WebView2 (условия Microsoft для распространяемых компонентов) и шрифты,
+чьи условия лежат в папке lib\third-party.
+
+Ключи к сервисам ИИ — ваши. Программа хранит их только на вашем компьютере и не
+передаёт никуда, кроме выбранного вами провайдера. Расходы по этим ключам несёте вы.
+
+Программа предоставляется «как есть», без каких-либо гарантий. Автор не несёт
+ответственности за любой ущерб, прямой или косвенный, связанный с её использованием.
+
+
+ENGLISH
+
+This license covers the AD.Caravos program (the launcher) and what was written for it:
+its install rules, interface and texts. The program is distributed by the author on Boosty —
+by subscription or by buying the post.
+
+You may:
+  • use the program if you received it from the author;
+  • keep personal copies of it for yourself, together with this license file.
+
+Without the author's written permission you may NOT:
+  • pass the program on to other people, publish it or distribute it in any other way;
+  • sell the program or charge for access to it;
+  • claim it as your own work;
+  • modify it or distribute modified versions;
+  • use the "AD.Caravos" name or look for other products.
+
+The program does not re-host other people's work. Everything third-party is downloaded onto
+your machine at install time — from its authors' own sources, and the fan-made russian
+voice-over from a link the launcher's author provides. Those materials are not part of this
+program and remain under their own authors' licenses; this license does not apply to them.
+Namely:
+  • Numen (Eddoursul) — the AI-dialogue mod itself;
+  • Tale of Two Wastelands — the launcher does NOT distribute it: it opens the authors' page,
+    and you download and run their installer yourself, on your own licensed copies of
+    Fallout 3 and New Vegas;
+  • Mod Organizer 2, xNVSE, JIP LN NVSE, JohnnyGuitar NVSE and the other NVSE plugins;
+  • FNV 4GB Patcher;
+  • the russian voice-over of the vanilla dialogue and the game translations — fan works,
+    the rights belong to their authors;
+  • the Piper voices and espeak-ng data — non-commercial use only;
+  • the sherpa-onnx / Vosk speech-recognition models (Apache-2.0);
+  • Ollama and llama.cpp — if you chose to run the model on your own PC.
+Only three third-party things ship with the program itself: 7-Zip (7zr.exe, LGPL), the
+WebView2 loader (under Microsoft's terms for redistributable components) and the fonts,
+whose terms are in lib\third-party.
+
+Your AI service keys are yours. The program keeps them on your machine only and sends
+them nowhere except the provider you chose. Their cost is yours.
+
+The program is provided "as is", without warranty of any kind. The author is not
+liable for any damage, direct or indirect, arising from its use.
