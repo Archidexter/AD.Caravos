@@ -1,0 +1,214 @@
+AD.Caravos — Лицензия / License
+==============================
+
+Copyright © 2026 Archidexter. Все права защищены. / All rights reserved.
+
+Автор и единственный правообладатель: Archidexter.
+AD.Caravos — лаунчер для Fallout: New Vegas и Fallout 4: ставит и настраивает моды ИИ-диалогов
+(Numen для New Vegas и Tale of Two Wastelands, Mantella для Fallout 4), а также помогает собрать
+Tale of Two Wastelands из ваших собственных копий обеих игр.
+Официальный источник: https://github.com/Archidexter/AD.Caravos
+Любые копии под другим авторством или с другой лицензией не авторизованы.
+
+Author and sole copyright holder: Archidexter.
+AD.Caravos is a launcher for Fallout: New Vegas and Fallout 4: it installs and configures the
+AI-dialogue mods (Numen on New Vegas and Tale of Two Wastelands, Mantella on Fallout 4), and helps
+assemble Tale of Two Wastelands from your own copies of both games.
+Official source: https://github.com/Archidexter/AD.Caravos
+Any copy under different authorship or a different license is not authorized.
+
+
+РУССКИЙ
+
+1. Программа
+------------
+Эта лицензия распространяется на программу AD.Caravos (лаунчер) и на то, что написано
+для неё: правила установки, интерфейс и тексты. Программа распространяется автором на Boosty —
+по подписке или при покупке поста.
+
+Разрешается:
+  • использовать программу тому, кто получил её от автора;
+  • держать её личные копии для себя, вместе с этим файлом лицензии.
+
+Запрещается без письменного разрешения автора:
+  • передавать программу другим людям, выкладывать её в открытый доступ или
+    распространять любым иным способом;
+  • продавать программу или брать плату за доступ к ней;
+  • выдавать её за свою работу;
+  • изменять её и распространять изменённые версии;
+  • использовать название и оформление «AD.Caravos» для других продуктов.
+
+2. Чужие материалы
+------------------
+Лаунчер — это установщик. Моды, программы, модели, голоса, озвучки и переводы других авторов
+не входят в программу: он скачивает их на ваш компьютер в момент установки. На них настоящая
+лицензия не распространяется — каждый остаётся под лицензией своего автора, и вы получаете его
+на её условиях. Подписка на Boosty даёт доступ только к программе AD.Caravos: всё перечисленное
+ниже лежит в открытом доступе, бесплатно и без регистрации, и автор лаунчера платы за это
+не берёт.
+
+2.1. С источников авторов лаунчер берёт:
+  • Numen (Eddoursul) — мод ИИ-диалогов для New Vegas; страницу mod.pub лаунчер открывает,
+    файлы вы скачиваете оттуда сами;
+  • Tale of Two Wastelands — лаунчер её НЕ РАЗДАЁТ: он открывает страницу авторов, а сборщик
+    вы скачиваете и запускаете сами, из своих лицензионных копий Fallout 3 и New Vegas;
+  • Mod Organizer 2 (GPL-3.0), xNVSE, JohnnyGuitar NVSE, ShowOff xNVSE, F4SE — с GitHub;
+  • JIP LN NVSE, TTW NVSE Plugin, lStewieAl's Tweaks, NVTF, FNV Mod Limit Fix, UIO,
+    FNV 4GB Patcher, Mod Configuration Menu, заплатку отката Fallout 4 — с Nexus Mods;
+  • модели распознавания речи sherpa-onnx (Apache-2.0) и голоса Piper irina и ruslan — с
+    Hugging Face; программу Piper (MIT) с данными espeak-ng (GPL-3.0) — с GitHub;
+  • Ollama (MIT) — с GitHub; модели нейросети Ollama скачивает сама из своего каталога, у
+    каждой модели своя лицензия. К LM Studio, llama.cpp и KoboldCpp лаунчер только
+    подключается, если они у вас уже запущены, и не ставит их;
+  • русскую озвучку Fallout 4 — по ссылкам её авторов.
+
+2.2. Часть файлов лаунчер берёт с наших зеркал — открытых копий, которые автор лаунчера
+держит, чтобы установка не вставала, когда источник недоступен, режет скорость или упирается
+в дневной лимит: датасеты Hugging Face Archidexter/adcaravos-assets и Archidexter/adlindel-assets,
+Google Drive, Яндекс.Диск и Облако Mail.ru. Там лежат:
+  • набор для Fallout 4 (fo4/FO4_Caravos_Pack.7z):
+      – Mantella для Fallout 4 (art-from-the-machine, peteben, Leidtier) в нашей сборке из
+        открытых исходников. Игровая часть и плагин F4SE — MIT, их исходники и список наших
+        правок лежат в самом наборе. Программа — GNU AGPL-3.0, с нашими правками; её полные
+        исходники, список правок и построчный diff — отдельным архивом в том же датасете:
+        fo4/FO4_Caravos_Mantella_Sources.7z
+        (https://huggingface.co/datasets/Archidexter/adcaravos-assets/tree/main/fo4);
+      – Address Library for F4SE, Backported Archive2 Support, High FPS Physics Fix (AntoniX35,
+        MIT), Simple Text Field и HUDFramework (reg2k) — копии без изменений, права у их авторов;
+  • XTTS — сервер озвучки: неизменённая сборка langfod/skyrimnet-tts v0.1.10
+    (https://github.com/langfod/skyrimnet-tts; основа — coqui-ai-TTS, MPL-2.0), веса модели
+    Coqui XTTS-v2 (Coqui Public Model License 1.0.0) и наши образцы голосов для русской речи;
+  • OmniTTS — сервер озвучки: jagerius/OmniTTS, модель k2-fsa/OmniVoice (код — Apache-2.0,
+    веса — CC BY-NC), встроенный Python (лицензия PSF) и наш мост к модам;
+  • русские образцы голосов для XTTS и OmniTTS — короткие отрывки из народных русских озвучек
+    New Vegas, Fallout 3 и Fallout 4 с текстом реплики: по ним локальный сервер говорит голосом
+    того же персонажа. Права на записи — у авторов озвучек;
+  • Ollama — неизменённая копия архива разработчика (MIT), текст лицензии лежит рядом;
+  • народные русские озвучки New Vegas и Fallout 3 и русские переводы Tale of Two Wastelands —
+    часть из них скачивается по ссылкам авторов, часть с копий автора лаунчера; права у авторов.
+
+2.3. Только некоммерческое использование разрешают: модель XTTS-v2 (Coqui Public Model
+License), модель OmniVoice (CC BY-NC), голос Piper ruslan (CC BY-NC-SA 4.0) и голос irina
+(данные RHVoice). Используйте их и созданную ими речь для себя, в игре; не продавайте их
+и не используйте для заработка.
+
+2.4. Правообладателям. Если вы автор материала с наших зеркал и не хотите, чтобы он лежал
+там, — напишите в Issues (https://github.com/Archidexter/AD.Caravos/issues) или на Boosty
+(https://boosty.to/ad.tile): копия будет убрана, и лаунчер будет брать файл только с вашего
+источника.
+
+3. Что поставляется вместе с программой
+---------------------------------------
+Внутри самой программы — только наш код и пять чужих вещей: 7-Zip (7zr.exe, LGPL), загрузчик
+WebView2 (условия Microsoft для распространяемых компонентов), шрифт JetBrains Mono (SIL Open
+Font License 1.1) и значки Pixel Icon Library (MIT) — их условия лежат в папке lib\third-party, —
+и файл главного экрана Fallout 4 из Backported Archive2 Support: он нужен игре после отката,
+права у его автора.
+
+4. Ключи и ответственность
+--------------------------
+Ключи к сервисам ИИ — ваши. Программа хранит их только на вашем компьютере и не
+передаёт никуда, кроме выбранного вами провайдера. Расходы по этим ключам несёте вы.
+
+Программа предоставляется «как есть», без каких-либо гарантий. Автор не несёт
+ответственности за любой ущерб, прямой или косвенный, связанный с её использованием.
+
+
+ENGLISH
+
+1. The program
+--------------
+This license covers the AD.Caravos program (the launcher) and what was written for it:
+its install rules, interface and texts. The program is distributed by the author on Boosty —
+by subscription or by buying the post.
+
+You may:
+  • use the program if you received it from the author;
+  • keep personal copies of it for yourself, together with this license file.
+
+Without the author's written permission you may NOT:
+  • pass the program on to other people, publish it or distribute it in any other way;
+  • sell the program or charge for access to it;
+  • claim it as your own work;
+  • modify it or distribute modified versions;
+  • use the "AD.Caravos" name or look for other products.
+
+2. Third-party materials
+------------------------
+The launcher is an installer. Other authors' mods, programs, models, voices, voice-overs and
+translations are not part of the program: it downloads them onto your machine at install time.
+This license does not apply to them — each stays under its own author's license, and you
+receive it on those terms. A Boosty subscription gives access to the AD.Caravos program only:
+everything listed below is publicly available, free of charge and without registration, and the
+launcher's author charges nothing for it.
+
+2.1. From its authors' own sources the launcher takes:
+  • Numen (Eddoursul) — the AI-dialogue mod for New Vegas; the launcher opens its mod.pub page
+    and you download the files there yourself;
+  • Tale of Two Wastelands — the launcher does NOT distribute it: it opens the authors' page,
+    and you download and run their installer yourself, on your own licensed copies of
+    Fallout 3 and New Vegas;
+  • Mod Organizer 2 (GPL-3.0), xNVSE, JohnnyGuitar NVSE, ShowOff xNVSE, F4SE — from GitHub;
+  • JIP LN NVSE, TTW NVSE Plugin, lStewieAl's Tweaks, NVTF, FNV Mod Limit Fix, UIO,
+    FNV 4GB Patcher, Mod Configuration Menu, the Fallout 4 downgrade patch — from Nexus Mods;
+  • the sherpa-onnx speech-recognition models (Apache-2.0) and the Piper voices irina and
+    ruslan — from Hugging Face; the Piper program (MIT) with espeak-ng data (GPL-3.0) — from
+    GitHub;
+  • Ollama (MIT) — from GitHub; Ollama downloads the AI models itself from its own library, and
+    each model has its own license. LM Studio, llama.cpp and KoboldCpp are only connected to if
+    you already run them; the launcher does not install them;
+  • the russian voice-over of Fallout 4 — from its authors' links.
+
+2.2. Some files come from our mirrors — public copies the launcher's author keeps so the install
+does not stall when a source is down, throttled or hits a daily quota: the Hugging Face datasets
+Archidexter/adcaravos-assets and Archidexter/adlindel-assets, Google Drive, Yandex Disk and
+Mail.ru Cloud. They hold:
+  • the Fallout 4 set (fo4/FO4_Caravos_Pack.7z):
+      – Mantella for Fallout 4 (art-from-the-machine, peteben, Leidtier), our build from the open
+        sources. The game part and the F4SE plugin are MIT; their sources and the list of our
+        changes are inside the set. The program is GNU AGPL-3.0, with our changes; its complete
+        sources, the list of changes and a line-by-line diff are a separate archive in the same
+        dataset: fo4/FO4_Caravos_Mantella_Sources.7z
+        (https://huggingface.co/datasets/Archidexter/adcaravos-assets/tree/main/fo4);
+      – Address Library for F4SE, Backported Archive2 Support, High FPS Physics Fix (AntoniX35,
+        MIT), Simple Text Field and HUDFramework (reg2k) — unmodified copies, rights belong to
+        their authors;
+  • XTTS — a voice server: the unmodified langfod/skyrimnet-tts v0.1.10 build
+    (https://github.com/langfod/skyrimnet-tts; based on coqui-ai-TTS, MPL-2.0), the Coqui XTTS-v2
+    model weights (Coqui Public Model License 1.0.0) and our voice samples for russian speech;
+  • OmniTTS — a voice server: jagerius/OmniTTS, the k2-fsa/OmniVoice model (code Apache-2.0,
+    weights CC BY-NC), an embedded Python (PSF license) and our bridge to the mods;
+  • russian voice samples for XTTS and OmniTTS — short excerpts from the fan-made russian
+    voice-overs of New Vegas, Fallout 3 and Fallout 4 with the line's text, so the local server
+    speaks in the same character's voice. The rights to the recordings belong to the voice-over
+    authors;
+  • Ollama — an unmodified copy of the developer's archive (MIT), with the license text next to it;
+  • the fan-made russian voice-overs of New Vegas and Fallout 3 and the russian translations of
+    Tale of Two Wastelands — some are downloaded from their authors' links, some from copies kept
+    by the launcher's author; the rights belong to their authors.
+
+2.3. Non-commercial use only: the XTTS-v2 model (Coqui Public Model License), the OmniVoice
+model (CC BY-NC), the Piper voice ruslan (CC BY-NC-SA 4.0) and the voice irina (RHVoice data).
+Use them and the speech they produce for yourself, in the game; do not sell them or use them to
+make money.
+
+2.4. For rights holders. If you are the author of something on our mirrors and do not want it
+there, write in Issues (https://github.com/Archidexter/AD.Caravos/issues) or on Boosty
+(https://boosty.to/ad.tile): the copy will be removed and the launcher will take the file from
+your source only.
+
+3. What ships with the program
+------------------------------
+The program itself contains only our code and five third-party things: 7-Zip (7zr.exe, LGPL), the
+WebView2 loader (under Microsoft's terms for redistributable components), the JetBrains Mono font
+(SIL Open Font License 1.1) and Pixel Icon Library icons (MIT) — their terms are in lib\third-party —
+and the Fallout 4 main-menu file from Backported Archive2 Support: the game needs it after the
+downgrade, rights belong to its author.
+
+4. Keys and liability
+---------------------
+Your AI service keys are yours. The program keeps them on your machine only and sends
+them nowhere except the provider you chose. Their cost is yours.
+
+The program is provided "as is", without warranty of any kind. The author is not
+liable for any damage, direct or indirect, arising from its use.
