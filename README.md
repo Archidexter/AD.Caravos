@@ -4,7 +4,7 @@
 
 ## Установка
 
-1. Скачайте `AD.Caravos.zip` из раздела **[Releases](https://github.com/Archidexter/AD.Caravos/releases/latest)**.
+1. Скачайте `AD.Caravos.zip` на странице автора на **[Boosty](https://boosty.to/ad.tile)** — по подписке или при покупке поста. В этом репозитории архивов программы нет.
 2. ПКМ по архиву → **Свойства** → внизу поставьте галочку **«Разблокировать»** → **ОК** *(Windows помечает скачанные файлы — это убирает лишние предупреждения системы)*.
 3. Распакуйте в любую папку и запустите **`AD.Caravos.exe`**.
 4. Дальше — по инструкции внутри лаунчера. Лаунчер обновляется сам.
@@ -53,6 +53,6 @@
 >
 > It also builds **Tale of Two Wastelands** — Fallout 3 on the New Vegas engine, both games with one character — from your own licensed copies and the authors' own installer, then connects the result as an ordinary build.
 >
-> Download `AD.Caravos.zip` from Releases, right-click → Properties → **Unblock**, unzip, run `AD.Caravos.exe`. Self-updating.
+> Download `AD.Caravos.zip` from the author's Boosty (https://boosty.to/ad.tile) — there are no program archives in this repository — then right-click → Properties → **Unblock**, unzip, run `AD.Caravos.exe`. Self-updating.
 >
 > © 2026 Archidexter, all rights reserved. Distributed by the author on Boosty; see [LICENSE.txt](LICENSE.txt). Third-party mods, models, voices and translations keep their own licenses and are downloaded free of charge from their authors' sources or our public mirrors — see LICENSE.txt, section 2. Sources of our Mantella for Fallout 4 build (AGPL-3.0): `fo4/FO4_Caravos_Mantella_Sources.7z` in [Archidexter/adcaravos-assets](https://huggingface.co/datasets/Archidexter/adcaravos-assets).
