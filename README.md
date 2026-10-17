@@ -6,7 +6,7 @@
 
 ## Установка
 
-1. Скачайте `AD.Caravos.zip` на странице автора на **[Boosty](https://boosty.to/ad.tile)** — по подписке или при покупке поста. В этом репозитории архивов программы нет.
+1. Скачайте `AD.Caravos.zip` на странице автора на **[Boosty](https://boosty.to/archidexter)** — по подписке или при покупке поста. В этом репозитории архивов программы нет.
 2. ПКМ по архиву → **Свойства** → внизу поставьте галочку **«Разблокировать»** → **ОК** *(Windows помечает скачанные файлы — это убирает лишние предупреждения системы)*.
 3. Распакуйте в любую папку и запустите **`AD.Caravos.exe`**.
 4. Дальше — по инструкции внутри лаунчера. Лаунчер обновляется сам.
@@ -55,7 +55,7 @@
 >
 > It also builds **Tale of Two Wastelands** — Fallout 3 on the New Vegas engine, both games with one character — from your own licensed copies and the authors' own installer, then connects the result as an ordinary build.
 >
-> Download `AD.Caravos.zip` from the author's Boosty (https://boosty.to/ad.tile) — there are no program archives in this repository — then right-click → Properties → **Unblock**, unzip, run `AD.Caravos.exe`. Self-updating.
+> Download `AD.Caravos.zip` from the author's Boosty (https://boosty.to/archidexter) — there are no program archives in this repository — then right-click → Properties → **Unblock**, unzip, run `AD.Caravos.exe`. Self-updating.
 >
 > Website: https://archidexter.ru/en/caravos/
 >
